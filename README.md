@@ -1,4 +1,4 @@
-#BCN ENERGY provides codes for reading, reconstruction and location of geometries extraced from KML files.
+#BCN ENERGY provides codes for reading, reconstruction and location of geometries extracted from KML files.
 
 The purpose of this project is to analyze the solar radiation, daylight, daylit and energy consumption of the buildings of Barcelona. This section focuses exclusively on the localization and construction of the geometry, while the analysis is run in Rhino Grasshopper, with LadyBug and HoneyBee.
 
