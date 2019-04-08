@@ -6,4 +6,7 @@ The KML files are divided into high-detailed geometries (buildings to analyze) a
 KMLs L files include the geodetic coordinates of the base points of the geometry and the height of the building (construction of the base + extrusion).
 KMLs H files include the geodetic coordinate of each surface of the building's locals and balconies. The resulting geometry is defined by closed breps (locals) and open breps (balconies). Further details regarding each brep, such as local use and name, are specified in this type of file.
 
-The transformation of geodetic coordinates to carthesian coordinates is done with the use of pyproj EPSG 25831.
+Libraries used:
+- pyproj : https://pypi.org/project/pyproj/
+- re : https://docs.python.org/3/library/re.html
+- xml.etree.ElementTree as et : https://pypi.org/project/lxml/
